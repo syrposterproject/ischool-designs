@@ -1,0 +1,284 @@
+/**** FONT INFO
+
+Aktiv Grotesk Light
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Aktiv Grotesk Regular
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Aktiv Grotesk Italic
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Aktiv Grotesk Medium
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Aktiv Grotesk Bold
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Aktiv Grotesk Bold Italic
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Aktiv Grotesk XBold
+font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 800;
+font-style: normal;
+
+
+
+Neue Haas Unica W1G Bold
+font-family: 'neue-haas-unica', sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Neue Haas Unica W1G Black
+font-family: 'neue-haas-unica', sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Neue Haas Unica W1G Heavy
+font-family: 'neue-haas-unica', sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+
+Trirong Regular
+font-family: 'Trirong', serif;
+font-weight: 400;
+font-style: normal;
+
+Trirong Medium
+font-family: 'Trirong', serif;
+font-weight: 500;
+font-style: normal;
+
+END OF FONT INFO ****/
+
+
+
+/**** COLORS ****
+
+light tan/off white: #F2EFE8
+almost black: #252525
+orange: #FF6200
+
+**** END OF COLORS ****/
+
+
+
+/* basic elements and text */
+body{
+	background-color:#F2EFE8;
+	background-image:url('../images/background.png');
+	margin-top:100px;
+	font-family: 'aktiv-grotesk', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/** you need to define your headings here, using the font choices supplied to you **/
+h1{
+
+
+}
+
+h2{
+
+
+}
+
+h3{
+
+
+}
+
+
+/* navigation bar */
+.bg-dark {
+    background-color:#252525 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#F2EFE8;
+    font-size:1em;
+    font-family:sans-serif;
+    font-family: 'aktiv-grotesk', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#ff6200;
+}
+
+.navbar-dark .navbar-toggler{ /* next 3 to change the hamburger icon */
+  background:none;
+  border:none;
+}
+
+.navbar-dark .navbar-toggler:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(227,227,227, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.cart-icon{
+	fill:#F2EFE8;
+}
+
+.cart-icon:hover{
+	fill:#ff6200;
+}
+
+
+
+/* buttons and links */
+
+a{
+	color:#ff6200;
+}
+
+a:hover{
+	color:#252525;
+}
+
+.btn-primary{
+	background-color:#ff6200;
+	border-color:#ff6200;
+	border-radius:20px;
+}
+
+.btn-primary:hover{
+	background-color:#F2EFE8;
+	border-color:#F2EFE8;
+	color:#252525;
+}
+
+.btn-primary2{
+	background-color:#ff6200;
+	border-color:#ff6200;
+	border-radius:20px;
+	color:#F2EFE8;
+}
+
+.btn-secondary{
+	background-color:#252525;
+	border-color:#252525;
+	border-radius:20px;
+}
+
+.btn-secondary:hover{
+	background-color:#ff6200;
+	border-color:#ff6200;
+	border-radius:20px;
+	color:#F2EFE8;
+}
+
+.btn-outline-primary{
+	border-color:#252525;
+	border-radius:20px;
+	color:#252525;
+}
+
+.btn-outline-primary:hover, .btn-primary2:hover{
+	border-color:#252525;
+	background-color:#252525;
+	color:#F2EFE8;
+}
+
+
+
+/* lines/borders
+
+use these CSS properties for a solid border (see Adobe XD design system)
+
+border: 1px solid #252525;
+
+use this for a dashed border:
+
+border: 1px dashed #252525; */
+
+
+/* for the lines */
+
+.dashed{
+	border:none;
+  	border-top:1px dashed #252525;
+  	opacity:1;
+  	color:rgba(0, 0, 0, 0);
+}
+
+.solid{
+  color: #252525;
+  background-color: #252525;
+  opacity: 1;	
+}
+
+
+
+
+/* footer */
+
+.footer{
+	background-color:#252525;
+	color:#F2EFE8;
+	font-size:.9em;
+}
+
+.subfooter{
+	background-color:#F2EFE8;
+	color:#252525;
+	font-size:.8em;
+}
+
+.social-icon {
+    width:40px;
+    fill: #252525;
+}
+
+.social-icon:hover {
+    fill: #ff6200;
+}
+
+.footer-links{
+	color:#F2EFE8;
+	line-height: 2em;
+	text-decoration:none;
+}
+
+.footer-links2{
+	color:#F2EFE8;
+}
+
+.footer-links:hover, .footer-links2:hover{
+	color:#ff6200;
+	text-decoration:none;
+}
+
+.footer-head{
+	margin-bottom: -1em;
+}
+
+
+/* your CSS here */
+
+
+
+
+
+
